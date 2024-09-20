@@ -1,0 +1,63 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+}
+.container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: lavender(to bottom,#ff99cc);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+}
+#tasks {
+    margin-top: 20px;
+}
+.task{
+    background-color: #f4f4f4;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+button {
+    margin-left: 10px;
+    background:linear-gradient(to bottom,#33cc33,#66ff66);
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+button:hover {
+    background: linear-gradient(to button,#228b22,#32cd32);
+
+}
+.edit-btn {
+    background: linear-gradient(to bottom,#6666,#9999);
+    color: #ffff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit-btn:hover {
+    background: linear-gradient(to bottom,#445,#7788ff);
+}
+.delete-btn{
+    background: linear-gradient(to bottom,#ff3333,#cc0);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background: linear-gradient(to bottom,#cc0033,#990033);
+}
+
+
+
